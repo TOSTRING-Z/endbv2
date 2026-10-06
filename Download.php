@@ -194,7 +194,7 @@
             .dl-table tbody td:first-child { font-weight: 600; }
             .dl-table tbody td:last-child { padding-bottom: 1rem; }
         }
-
+    
         /* ===== Category Row ===== */
         .dl-category td {
             background: linear-gradient(135deg, #e8f5f0, #d4ede4) !important;
@@ -216,7 +216,7 @@
             <a href="/ENdb/">Home</a> &nbsp;/&nbsp; <span>Download</span>
         </div>
         <h1 class="hero-title"><span class="highlight">Download</span></h1>
-        <p class="hero-subtitle">All datasets are in the same tab-delimited format. Click "Format Details" below for column descriptions.</p>
+        <p class="hero-subtitle">All datasets are provided in tab-delimited (.txt) or comma-delimited (.csv) format. Click "Format Details" below for column descriptions.</p>
     </div>
 </div>
 
@@ -240,42 +240,42 @@
                         <td colspan="2"><i class="fa fa-database mr-2"></i><strong>Full Dataset</strong></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">1</span> All 3,523 experimentally confirmed enhancers (complete database)</td>
+                        <td><span class="dl-number">1</span> All 4,831 experimentally confirmed enhancers (complete database)</td>
                         <td><a href="download/enhancer_main.txt" class="btn-download" download="enhancer_main.txt"><i class="fa fa-download"></i> enhancer_main.txt</a></td>
                     </tr>
                     <tr class="dl-category">
                         <td colspan="2"><i class="fa fa-paw mr-2"></i><strong>By Species</strong></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">1</span> Homo sapiens — 2,037 enhancers</td>
+                        <td><span class="dl-number">1</span> Homo sapiens — 3,180 enhancers</td>
                         <td><a href="download/Homo sapiens.csv" class="btn-download" download="Homo sapiens.csv"><i class="fa fa-download"></i> Homo sapiens.csv</a></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">2</span> Mus musculus — 1,416 enhancers</td>
+                        <td><span class="dl-number">2</span> Mus musculus — 1,588 enhancers</td>
                         <td><a href="download/Mus musculus.csv" class="btn-download" download="Mus musculus.csv"><i class="fa fa-download"></i> Mus musculus.csv</a></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">3</span> Danio rerio — 24 enhancers</td>
+                        <td><span class="dl-number">3</span> Danio rerio — 19 enhancers</td>
                         <td><a href="download/Danio rerio.csv" class="btn-download" download="Danio rerio.csv"><i class="fa fa-download"></i> Danio rerio.csv</a></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">4</span> Drosophila melanogaster — 44 enhancers</td>
+                        <td><span class="dl-number">4</span> Drosophila melanogaster — 42 enhancers</td>
                         <td><a href="download/Drosophila melanogaster.csv" class="btn-download" download="Drosophila melanogaster.csv"><i class="fa fa-download"></i> Drosophila melanogaster.csv</a></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">5</span> Gallus gallus — 3 enhancers</td>
-                        <td><a href="download/Gallus gallus.csv" class="btn-download" download="Gallus gallus.csv"><i class="fa fa-download"></i> Gallus gallus.csv</a></td>
+                        <td><span class="dl-number">5</span> Rattus norvegicus — 2 enhancers</td>
+                        <td><a href="download/Rattus norvegicus.csv" class="btn-download" download="Rattus norvegicus.csv"><i class="fa fa-download"></i> Rattus norvegicus.csv</a></td>
                     </tr>
 
                     <tr class="dl-category">
                         <td colspan="2"><i class="fa fa-heartbeat mr-2"></i><strong>By Condition</strong></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">1</span> Disease-associated enhancers — 1,419 records</td>
+                        <td><span class="dl-number">1</span> Disease-associated enhancers — 2,113 records</td>
                         <td><a href="download/Disease.csv" class="btn-download" download="Disease.csv"><i class="fa fa-download"></i> Disease.csv</a></td>
                     </tr>
                     <tr>
-                        <td><span class="dl-number">2</span> Normal condition enhancers — 2,105 records</td>
+                        <td><span class="dl-number">2</span> Normal condition enhancers — 2,718 records</td>
                         <td><a href="download/Normal.csv" class="btn-download" download="Normal.csv"><i class="fa fa-download"></i> Normal.csv</a></td>
                     </tr>
 
@@ -303,8 +303,8 @@
                             <tr><td>Year</td><td>Publication year of the article</td></tr>
                             <tr><td>PMID</td><td>PubMed ID of the article</td></tr>
                             <tr><td>Title</td><td>Title of the article</td></tr>
-                            <tr><td>Species</td><td>Species — Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster, or Gallus gallus</td></tr>
-                            <tr><td>Genome_Build</td><td>Reference genome version (hg19, hg38, mm10, danRer11, dm6, galGal6)</td></tr>
+                            <tr><td>Species</td><td>Species — Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster, or Rattus norvegicus</td></tr>
+                            <tr><td>Genome_Build</td><td>Reference genome version (hg19, hg38, mm9, mm10, danRer11, dm6, rn4)</td></tr>
                             <tr><td>Chromosome</td><td>Chromosome number</td></tr>
                             <tr><td>Start_position</td><td>Start position of the enhancer</td></tr>
                             <tr><td>End_position</td><td>End position of the enhancer</td></tr>
