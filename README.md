@@ -4,14 +4,12 @@ ENdb 2.0 is a manually curated knowledge base of experimentally validated enhanc
 
 According to the ENdb 2.0 homepage, the database contains:
 
-- **3,523** experimentally validated enhancers
-- **1,192** cell lines
-- **66** tissues
-- **112** diseases
-- **148** cell types
-- Five species: *Homo sapiens*, *Mus musculus*, *Danio rerio*, *Drosophila melanogaster*, and *Gallus gallus*
+- **4,831** curated enhancer evidence records (a 6.55-fold increase over the 737 records in ENdb 1.0)
+- **2,793** records defining enhancer-TF-target-gene relationships (a 5.30-fold increase over the 527 records in ENdb 1.0)
+- **496** transcription factors (up from 263), **1,070** target genes (up from 384), **226** diseases (up from 110), **169** tissues (up from 22), **415** cell types (up from 108), and **1,255** cell sources (up from 266)
+- Five species: *Homo sapiens*, *Mus musculus*, *Drosophila melanogaster*, *Danio rerio*, and *Rattus norvegicus*
 
-Every genomic coordinate in the database is intended to be backed by manually reviewed functional evidence from the original literature.
+Literature coverage spans 2019 to 2026. Curation draws on PubMed, Google Scholar, and publisher websites. Every genomic coordinate in the database is intended to be backed by manually reviewed functional evidence from the original literature.
 
 ## Main functions
 
