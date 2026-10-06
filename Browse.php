@@ -292,6 +292,25 @@
             padding: 0;
         }
 
+        /* ===== Records Organization Note ===== */
+        .browse-note {
+            display: flex;
+            gap: 0.6rem;
+            background: #f4f9f7;
+            border: 1px solid #e0eeea;
+            border-left: 3px solid #418679;
+            border-radius: 8px;
+            padding: 0.9rem 1.2rem;
+            margin-bottom: 1.25rem;
+            color: #525f7f;
+            font-size: 0.86rem;
+            line-height: 1.6;
+        }
+        .browse-note i {
+            color: #418679;
+            margin-top: 0.15rem;
+        }
+
         /* ===== Responsive ===== */
         @media (max-width: 991px) {
             .page-hero { padding: 1.5rem 0 1.2rem; }
@@ -325,6 +344,12 @@
 
 <!-- ===== Main Content ===== -->
 <div class="container browse-body">
+    <!-- ===== Records Organization Note ===== -->
+    <div class="browse-note">
+        <i class="fa fa-list-ol"></i>
+        <span><strong>How multiple matching records are organized:</strong> the table lists every enhancer record that matches the current filter selection, without relevance-based prioritization. By default, records are ordered by ascending Enhancer ID; click any column header to re-sort (ascending / descending). Sidebar filters are combined — a record must match all selected filters — and the number beside each filter value shows its count within the current selection. The table also provides an in-table search box, an adjustable number of entries per page, and CSV export.</span>
+    </div>
+
     <div class="row">
         <!-- Sidebar Filters -->
         <div class="col-lg-3 col-md-3 col-xs-12">

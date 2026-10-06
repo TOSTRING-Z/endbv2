@@ -353,7 +353,7 @@
                     </button>
                     <div class="collapse" id="Browser">
                         <div class="help-collapse-content">
-                            <p>The <strong>Browse</strong> page presents enhancer records in an interactive, sortable table with dynamic sidebar filters. Users can filter by <strong>Species</strong>, <strong>Tissue</strong>, <strong>Cell Type</strong>, <strong>Disease</strong>, and <strong>Experiment</strong> — each with real-time result counts and pagination. Clicking any filter value refreshes both the sidebar statistics and the main table. Each record links to a detailed enhancer view.</p>
+                            <p>The <strong>Browse</strong> page presents enhancer records in an interactive, sortable table with dynamic sidebar filters. Users can filter by <strong>Species</strong>, <strong>Tissue</strong>, <strong>Cell Type</strong>, <strong>Disease</strong>, and <strong>Experiment</strong> — each with real-time result counts and pagination. Clicking any filter value refreshes both the sidebar statistics and the main table. Each record links to a detailed enhancer view. All matching records are presented in a single table without relevance-based prioritization, listed by ascending Enhancer ID by default and re-sortable via any column header.</p>
                             <img src="images/help/help-browser.png" style="width: 100%;" alt="Browse Help"/>
                         </div>
                     </div>
@@ -367,7 +367,7 @@
                     </button>
                     <div class="collapse" id="Search">
                         <div class="help-collapse-content">
-                            <p>The <strong>Search</strong> page offers multiple search modes: by <strong>Enhancer</strong>, <strong>Target Gene</strong>, <strong>TF</strong>, <strong>Tissue</strong>, <strong>Cell Type</strong>, <strong>Cell Line</strong>, <strong>Disease</strong>, and <strong>Chromosome Region</strong>. Users can also upload a BED file for batch queries. Each mode includes example links and species selection (Human/Mouse). Results are displayed in a sortable DataTable with CSV export support.</p>
+                            <p>The <strong>Search</strong> page offers multiple search modes: by <strong>Enhancer</strong>, <strong>Target Gene</strong>, <strong>TF</strong>, <strong>Tissue</strong>, <strong>Cell Type</strong>, <strong>Cell Line</strong>, <strong>Disease</strong>, and <strong>Chromosome Region</strong>. Users can also upload a BED file for batch queries. Each mode includes example links and species selection (Human/Mouse). Results are displayed in a sortable DataTable with CSV export support. All matching records are returned in a single table without relevance-based prioritization, listed by ascending Enhancer ID by default and re-sortable via any column header.</p>
                             <img src="images/help/help-search.png" style="width: 100%;" alt="Search Help"/>
                         </div>
                         <hr style="border-color:#e9ecef; margin: 1rem 1.5rem;">
@@ -463,8 +463,8 @@
                             <tr><td>Year</td><td>Publication year of the article</td></tr>
                             <tr><td>PMID</td><td>PubMed ID of the article</td></tr>
                             <tr><td>Title</td><td>Title of the article</td></tr>
-                            <tr><td>Species</td><td>Species — Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster, or Gallus gallus</td></tr>
-                            <tr><td>Genome_Build</td><td>Reference genome version (hg19, hg38, mm10, danRer11, dm6, galGal6)</td></tr>
+                            <tr><td>Species</td><td>Species — Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster, or Rattus norvegicus</td></tr>
+                            <tr><td>Genome_Build</td><td>Reference genome version (hg19, hg38, mm9, mm10, danRer11, dm6, rn4)</td></tr>
                             <tr><td>Chromosome</td><td>Chromosome number</td></tr>
                             <tr><td>Start_position</td><td>Start position of the enhancer</td></tr>
                             <tr><td>End_position</td><td>End position of the enhancer</td></tr>

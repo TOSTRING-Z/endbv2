@@ -321,6 +321,25 @@
             margin: 1.5rem 0;
         }
 
+        /* ===== Result Organization Note ===== */
+        .search-note {
+            display: flex;
+            gap: 0.6rem;
+            background: #f4f9f7;
+            border: 1px solid #e0eeea;
+            border-left: 3px solid #418679;
+            border-radius: 8px;
+            padding: 0.9rem 1.2rem;
+            margin-bottom: 1.5rem;
+            color: #525f7f;
+            font-size: 0.86rem;
+            line-height: 1.6;
+        }
+        .search-note i {
+            color: #418679;
+            margin-top: 0.15rem;
+        }
+
         /* ===== Responsive ===== */
         @media (max-width: 991px) {
             .search-sidebar {
@@ -364,7 +383,7 @@
                     <div class="stat-label">Species</div>
                 </div>
                 <div class="hero-stat">
-                    <div class="stat-num">6,000+</div>
+                    <div class="stat-num">4,831</div>
                     <div class="stat-label">Enhancers</div>
                 </div>
             </div>
@@ -373,6 +392,12 @@
 
     <!-- ===== Main Content ===== -->
     <div class="container search-main">
+        <!-- ===== Result Organization Note ===== -->
+        <div class="search-note">
+            <i class="fa fa-list-ol"></i>
+            <span><strong>How multiple matching records are organized:</strong> every search returns all matching enhancer records in a single interactive table, without relevance-based prioritization. By default, records are listed in ascending Enhancer ID order (E_00001, E_00002, …); click any column header to re-sort the list (ascending / descending). The table also provides an in-results search box, an adjustable number of entries per page, and CSV export; the total number of matching records is displayed above the table.</span>
+        </div>
+
         <div class="row">
             <!-- Sidebar -->
             <div class="col-lg-3">
@@ -757,11 +782,11 @@
         $(document).on('click', '#search-tabs .nav-link', function(e) {
             e.preventDefault();
             var targetId = $(this).attr('href');
-
+            
             // Update nav link active states
             $('#search-tabs .nav-link').removeClass('active');
             $(this).addClass('active');
-
+            
             // Update tab pane visibility
             $('.tab-pane').removeClass('show active');
             $(targetId).addClass('show active');
