@@ -55,7 +55,7 @@
         include '../public/conn.php';
 
         $Species = empty($_POST['Species']) ? null : trim($_POST['Species']);
-        $species_map = ['human'=>'Homo sapiens','mouse'=>'Mus musculus'];
+        $species_map = ['human'=>'Homo sapiens','mouse'=>'Mus musculus','rat'=>'Rattus norvegicus','zebrafish'=>'Danio rerio','drosophila'=>'Drosophila melanogaster'];
         if (isset($species_map[$Species])) { $Species = $species_map[$Species]; }
         $Target_gene = empty($_POST['Target_gene']) ? null : trim($_POST['Target_gene']);
         $arr = array();
@@ -69,7 +69,7 @@
         $tim_tissue_sql = " Species='$Species '";
         $enhancer_type_sql = "SELECT * FROM  enhancer_main
 											where $tim_tissue_sql and Target_Gene in ($str)
-                                        ";
+			    						";
         $enhancer_type_res = mysqli_query($conn, $enhancer_type_sql);
         while ($row = mysqli_fetch_assoc($enhancer_type_res)) {
             $Enhancer_id = $row["Enhancer_id"] ?? '';

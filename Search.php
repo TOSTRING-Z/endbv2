@@ -461,11 +461,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" id="tissue_species" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -482,7 +482,7 @@
                                     <div class="col-lg-6">
                                         <div class="explanation-box">
                                             <div class="explanation-title"><i class="fa fa-info-circle"></i>Option Explanation</div>
-                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: human, mouse, rat, zebrafish, drosophila.</div>
+                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus.</div>
                                             <div class="explanation-item"><strong>2) Tissue Name:</strong> Enter a tissue name (e.g., lung, liver, brain) to find enhancers active in that tissue.</div>
                                         </div>
                                     </div>
@@ -498,11 +498,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" id="disease_species" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -519,7 +519,7 @@
                                     <div class="col-lg-6">
                                         <div class="explanation-box">
                                             <div class="explanation-title"><i class="fa fa-info-circle"></i>Option Explanation</div>
-                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: human, mouse, rat, zebrafish, drosophila.</div>
+                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus.</div>
                                             <div class="explanation-item"><strong>2) Disease Name:</strong> Enter a disease name to find enhancers associated with that disease condition.</div>
                                         </div>
                                     </div>
@@ -535,11 +535,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" id="celltype_species" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -556,7 +556,7 @@
                                     <div class="col-lg-6">
                                         <div class="explanation-box">
                                             <div class="explanation-title"><i class="fa fa-info-circle"></i>Option Explanation</div>
-                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: human, mouse, rat, zebrafish, drosophila.</div>
+                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus.</div>
                                             <div class="explanation-item"><strong>2) Cell Type:</strong> Enter a cell type (e.g., B cell, T cell) to find enhancers specific to that cell type.</div>
                                         </div>
                                     </div>
@@ -572,11 +572,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" id="cellline_species" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -593,7 +593,7 @@
                                     <div class="col-lg-6">
                                         <div class="explanation-box">
                                             <div class="explanation-title"><i class="fa fa-info-circle"></i>Option Explanation</div>
-                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: human, mouse, rat, zebrafish, drosophila.</div>
+                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus.</div>
                                             <div class="explanation-item"><strong>2) Cell Line:</strong> Enter a cell line name (e.g., HEK293T, HeLa) to find enhancers active in that cell line.</div>
                                         </div>
                                     </div>
@@ -609,11 +609,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" id="tf_species" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -630,7 +630,7 @@
                                     <div class="col-lg-6">
                                         <div class="explanation-box">
                                             <div class="explanation-title"><i class="fa fa-info-circle"></i>Option Explanation</div>
-                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: human, mouse, rat, zebrafish, drosophila.</div>
+                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus.</div>
                                             <div class="explanation-item"><strong>2) TF Name(s):</strong> Enter one or more transcription factors (one per line) to find enhancers associated with those TFs.</div>
                                         </div>
                                     </div>
@@ -646,11 +646,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" id="gene_species" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -667,7 +667,7 @@
                                     <div class="col-lg-6">
                                         <div class="explanation-box">
                                             <div class="explanation-title"><i class="fa fa-info-circle"></i>Option Explanation</div>
-                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: human, mouse, rat, zebrafish, drosophila.</div>
+                                            <div class="explanation-item"><strong>1) Species:</strong> Select from 5 species: Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus.</div>
                                             <div class="explanation-item"><strong>2) Gene Symbol(s):</strong> Enter one or more gene symbols (one per line) to find enhancers targeting those genes.</div>
                                         </div>
                                     </div>
@@ -683,11 +683,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -730,11 +730,11 @@
                                             <div class="form-group">
                                                 <div class="form-section-label"><i class="fa fa-paw"></i>Species</div>
                                                 <select class="form-control" name="Species">
-                                                    <option value="human">Human (hg38)</option>
-                                                    <option value="mouse">Mouse (mm39)</option>
-                                                    <option value="rat">Rat (rn7)</option>
-                                                    <option value="zebrafish">Zebrafish (danRer11)</option>
-                                                    <option value="drosophila">Drosophila (dm6)</option>
+                                                    <option value="human">Homo sapiens (hg38)</option>
+                                                    <option value="mouse">Mus musculus (mm39)</option>
+                                                    <option value="rat">Rattus norvegicus (rn7)</option>
+                                                    <option value="zebrafish">Danio rerio (danRer11)</option>
+                                                    <option value="drosophila">Drosophila melanogaster (dm6)</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">

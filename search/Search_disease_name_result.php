@@ -55,13 +55,13 @@
         include '../public/conn.php';
 
         $Species = empty($_POST['Species']) ? null : trim($_POST['Species']);
-        $species_map = ['human'=>'Homo sapiens','mouse'=>'Mus musculus'];
+        $species_map = ['human'=>'Homo sapiens','mouse'=>'Mus musculus','rat'=>'Rattus norvegicus','zebrafish'=>'Danio rerio','drosophila'=>'Drosophila melanogaster'];
         if (isset($species_map[$Species])) { $Species = $species_map[$Species]; }
         $disease_name = empty($_POST['disease_name']) ? null : trim($_POST['disease_name']);
 
         $enhancer_type_sql = "SELECT * FROM enhancer_main
 											where Species='" . $Species . "' and Disease_Name like '%" . $disease_name . "%'
-                                        ";
+			    						";
 
         $enhancer_type_res = mysqli_query($conn, $enhancer_type_sql);
         while ($row = mysqli_fetch_assoc($enhancer_type_res)) {

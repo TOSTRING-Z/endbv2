@@ -367,7 +367,7 @@
                     </button>
                     <div class="collapse" id="Search">
                         <div class="help-collapse-content">
-                            <p>The <strong>Search</strong> page offers multiple search modes: by <strong>Enhancer</strong>, <strong>Target Gene</strong>, <strong>TF</strong>, <strong>Tissue</strong>, <strong>Cell Type</strong>, <strong>Cell Line</strong>, <strong>Disease</strong>, and <strong>Chromosome Region</strong>. Users can also upload a BED file for batch queries. Each mode includes example links and species selection (Human/Mouse). Results are displayed in a sortable DataTable with CSV export support. All matching records are returned in a single table without relevance-based prioritization, listed by ascending Enhancer ID by default and re-sortable via any column header.</p>
+                            <p>The <strong>Search</strong> page offers multiple search modes: by <strong>Enhancer</strong>, <strong>Target Gene</strong>, <strong>TF</strong>, <strong>Tissue</strong>, <strong>Cell Type</strong>, <strong>Cell Line</strong>, <strong>Disease</strong>, and <strong>Chromosome Region</strong>. Users can also upload a BED file for batch queries. Each mode includes example links and species selection (Homo sapiens, Mus musculus, Danio rerio, Drosophila melanogaster and Rattus norvegicus). Results are displayed in a sortable DataTable with CSV export support. All matching records are returned in a single table without relevance-based prioritization, listed by ascending Enhancer ID by default and re-sortable via any column header.</p>
                             <img src="images/help/help-search.png" style="width: 100%;" alt="Search Help"/>
                         </div>
                         <hr style="border-color:#e9ecef; margin: 1rem 1.5rem;">
@@ -387,7 +387,7 @@
                     </button>
                     <div class="collapse" id="Genome-browser">
                         <div class="help-collapse-content">
-                            <p>The <strong>Genome Browser</strong> integrates JBrowse2 to visualize enhancer annotations in their genomic context. Four genome assemblies are supported: <strong>Human hg38</strong>, <strong>Human hg19</strong>, <strong>Mouse mm10</strong>, and <strong>Mouse mm39</strong>. Tracks include reference sequence, gene annotations, experimentally validated enhancers, DNase-seq peaks, and super-enhancer elements. Users can switch assemblies with a single click and explore tracks interactively.</p>
+                            <p>The <strong>Genome Browser</strong> integrates JBrowse2 to visualize enhancer annotations in their genomic context. Four genome assemblies are supported: <strong>Homo sapiens hg38</strong>, <strong>Homo sapiens hg19</strong>, <strong>Mus musculus mm10</strong>, and <strong>Mus musculus mm39</strong>. Tracks include reference sequence, gene annotations, experimentally validated enhancers, DNase-seq peaks, and super-enhancer elements. Users can switch assemblies with a single click and explore tracks interactively.</p>
                             <img src="images/help/help-genome-browser.png" style="width: 100%;" alt="Genome Browser"/>
                         </div>
                     </div>

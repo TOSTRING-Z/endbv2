@@ -140,7 +140,7 @@
             <a href="/ENdb/">Home</a> &nbsp;/&nbsp; <span>Genome Browser</span>
         </div>
         <h1 class="hero-title"><span class="highlight">Genome</span> Browser</h1>
-        <p class="hero-subtitle">Explore enhancer annotations, genes, and SNPs across human (hg38, hg19) and mouse (mm10, mm39) genomes with JBrowse</p>
+        <p class="hero-subtitle">Explore enhancer annotations, genes, and SNPs across Homo sapiens (hg38, hg19) and Mus musculus (mm10, mm39) genomes with JBrowse</p>
     </div>
 </div>
 
@@ -152,25 +152,25 @@
                 <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <a href="javascript:void(0)" onclick="switchGenome('hg38')"
                        class="btn-genome active" id="btn-hg38">
-                        <i class="fa fa-globe"></i> Human hg38
+                        <i class="fa fa-globe"></i> Homo sapiens hg38
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <a href="javascript:void(0)" onclick="switchGenome('hg19')"
                        class="btn-genome-outline" id="btn-hg19">
-                        <i class="fa fa-globe"></i> Human hg19
+                        <i class="fa fa-globe"></i> Homo sapiens hg19
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <a href="javascript:void(0)" onclick="switchGenome('mm10')"
                        class="btn-genome-outline" id="btn-mm10">
-                        <i class="fa fa-globe"></i> Mouse mm10
+                        <i class="fa fa-globe"></i> Mus musculus mm10
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <a href="javascript:void(0)" onclick="switchGenome('mm39')"
                        class="btn-genome-outline" id="btn-mm39">
-                        <i class="fa fa-globe"></i> Mouse mm39
+                        <i class="fa fa-globe"></i> Mus musculus mm39
                     </a>
                 </div>
             </div>

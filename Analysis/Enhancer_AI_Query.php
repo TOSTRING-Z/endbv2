@@ -330,7 +330,7 @@
                                 <button class="example-btn-small" data-query="Enhancers in liver tissue">🔬 liver enhancers</button>
                                 <button class="example-btn-small" data-query="Super enhancers related to prostate cancer">⭐ super enhancers + prostate cancer</button>
                                 <button class="example-btn-small" data-query="Enhancers in B cells with TF CTCF">🧬 B cell enhancers with CTCF</button>
-                                <button class="example-btn-small" data-query="Human enhancers associated with cervical cancer">🩺 human cervical cancer enhancers</button>
+                                <button class="example-btn-small" data-query="Homo sapiens enhancers associated with cervical cancer">🩺 Homo sapiens cervical cancer enhancers</button>
                                 <button class="example-btn-small" data-query="Enhancers in brain tissue related to disease">🧠 brain tissue disease enhancers</button>
                             </div>
                         </div>

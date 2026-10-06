@@ -66,7 +66,7 @@
                 <tbody>
                 <?php
                 $Species = empty($_POST['Species']) ? null : trim($_POST['Species']);
-                $species_map = ['human'=>'Homo sapiens','mouse'=>'Mus musculus'];
+                $species_map = ['human'=>'Homo sapiens','mouse'=>'Mus musculus','rat'=>'Rattus norvegicus','zebrafish'=>'Danio rerio','drosophila'=>'Drosophila melanogaster'];
                 if (isset($species_map[$Species])) { $Species = $species_map[$Species]; }
                 $data = file_get_contents("upload/" . $_FILES["userfile"]["name"]);
                 $data = preg_split("/\n/i",$data);
@@ -77,11 +77,11 @@
                     $End_position = trim($row[2]);
                     $tim_tissue_sql = 'Chromosome="' . $Chromosome . '" and Species="' . $Species . '" ';
                     $enhancer_type_sql = "SELECT *
-											FROM (SELECT *
+											FROM (SELECT * 
 											      from enhancer_main
 												  where (Start_position between $Start_position and $End_position or End_position between $Start_position and $End_position) or (Start_position <=$Start_position and  End_position >= $End_position)) as tmpenhancer1
 											where $tim_tissue_sql
-                                        ";
+			    						";
                     $enhancer_type_res = mysqli_query($conn, $enhancer_type_sql);
                     while ($row = mysqli_fetch_assoc($enhancer_type_res)) {
                         $Enhancer_id = $row["Enhancer_id"];
